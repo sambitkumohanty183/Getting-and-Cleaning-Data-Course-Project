@@ -8,7 +8,7 @@ http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartpho
 
 # Program Description
 
-*The program starts by reading all the relevant data files.
+* The program starts by reading all the relevant data files.
 
 ```{r }
 - 'features_info.txt': Shows information about the variables used on the feature vector.
@@ -30,15 +30,15 @@ http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartpho
 - 'test/subject_test.txt': Test subject
 ```
 
-*Next it transforms the filters only the columns necessary to create the tidy data set.
+* Next it transforms the filters only the columns necessary to create the tidy data set.
 
-*It cleans up the column names to remove dashes and brackets.
+* It cleans up the column names to remove dashes and brackets.
 
-*Next it column binds the the test data set and training data sets with their respective subject codes and activity.
+* Next it column binds the the test data set and training data sets with their respective subject codes and activity.
 
-*Finally it row binds both the data sets.
+* Finally it row binds both the data sets.
 
-*For the final data set we are using ddply where we are grouping by subject and activity. Then calculating the colMeans using an inline function.
+* For the final data set we are using ddply where we are grouping by subject and activity. Then calculating the colMeans using an inline function.
  
 * More detailed information check the inline code comments.
 

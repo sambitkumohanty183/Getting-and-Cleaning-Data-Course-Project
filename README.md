@@ -8,21 +8,21 @@ The goal is to prepare tidy data that can be used for later analysis.
 
 # How to run the Code
 
-*Download the data files from 
+* Download the data files from 
 
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
 
-*Extract them to your R working directory
+* Extract them to your R working directory
 
-*You should see a top level folder called "UCI HAR Dataset" 
+* You should see a top level folder called "UCI HAR Dataset" 
 
-*Run the run_analysis.R code
+* Run the run_analysis.R code
 
 
 # Files in this Repository
 
-*The run_analysis.R is the main program that reads the test and training data
+* The run_analysis.R is the main program that reads the test and training data
 
-*The CodeBook.md explains all the variables and data merging done by the Code. 
+* The CodeBook.md explains all the variables and data merging done by the Code. 
 
-*output_activity_text.txt is the final tidy data set.
+* output_activity_text.txt is the final tidy data set.
